@@ -1,0 +1,76 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav div {
+    display: flex;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tabs {
+    display: flex;
+    width: 25%;
+}
+.tab1,.tab2 { 
+    flex: 1; 
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.tab1:hover,.tab2:hover {
+    background-color: rgb(105, 105, 105);
+}
+main{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+.boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+.crad {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 227, 227);
+    border: 1px solid black;
+    height: 750px;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+#price{
+    font-size: xx-large;
+}
+#price sub, sup{
+    font-size: 17px;
+    font-weight: normal;
+}
+#btn{
+    align-items: center;
+    width: 300px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(164, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+}
